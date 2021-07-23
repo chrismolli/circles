@@ -10,7 +10,13 @@
     top: 50%;
     width: 40%;
     margin-left: 30%;
-    font-size: 14pt;
+    font-size: 16pt;
+}
+
+@media (max-width: 1024px){
+    #infotext{
+        font-size: 20pt;
+    }
 }
 
 #tooltip{
